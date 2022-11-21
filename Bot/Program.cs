@@ -2,7 +2,7 @@
 using Telegram.Bot;
 using Telegram.Bot.Extensions.Polling;
 
-var botClient = new TelegramBotClient("5479616432:AAFiMvKbY480ClvWUVOAnoNxmSQlXdpJ0KM");
+var botClient = new TelegramBotClient("");
 
 var cts = new CancellationTokenSource();
 Console.CancelKeyPress += (_, _) => cts.Cancel(); // Чтобы отловить нажатие ctrl+C 
